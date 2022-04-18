@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+a,
+b,
+button,
+i,
+input,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+textarea,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing:border-box;
+
+}
+
+*::selection{
+  background: #c9c9c9;
+  color: #212121;
+}
+
+html{
+  overflow-y: scroll;
+}
+html::-webkit-scrollbar{
+  width: 7px;
+}
+html::-webkit-scrollbar-thumb{
+  background: #0f3443;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 1px solid transparent;
+}
+html::-webkit-scrollbar-track{
+ background: transparent;
+}
+
+
+html,
+body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    font: normal 16px/1  'Poppins','Noto Sans KR','Roboto','Montserrat','Nanum Gothic', Sans-serif;
+    background:#f0ede8;
+    color: #232323;
+}
+
+a{
+  text-decoration: none;
+  color: #232323;
+}
+
+ul,li,ol{
+  list-style: none;
+}
+
+i,em,address{
+  font-style: normal;
+}
+
+button{
+  cursor: pointer;
+}
+
+main,header,footer,section,nav,article{
+  display: block;
+}
+
+.blind{
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+}
+
+.hide{
+  display: none;
+}
+.hidden{
+  overflow: hidden;
+}
